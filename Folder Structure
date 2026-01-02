@@ -1,0 +1,22 @@
+ml-resume-screener/
+│
+├── app/
+│   ├── api/
+│   │   └── predict.py
+│   │
+│   ├── ml/
+│   │   ├── preprocess.py
+│   │   ├── model.py
+│   │   └── train.py
+│   │
+│   ├── core/
+│   │   └── config.py
+│
+├── models/
+│   ├── resume_model.pkl
+│   └── vectorizer.pkl
+│
+├── main.py
+├── requirements.txt
+├── Dockerfile
+├── README.md
